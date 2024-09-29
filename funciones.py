@@ -1,4 +1,4 @@
--- Sumar
+# Sumar
 def sumar(a, b):
     return a + b
     
@@ -21,7 +21,7 @@ for i in range(cantidad):
 print(lista)
 print("La suma total es: ", sumar(lista))
 
--- Restar
+# Restar
 def restar (a,b):
 
     return a-b
@@ -34,7 +34,7 @@ resultado = restar(num1, num2)
 print(f"La resta de {num1} menos {num2} es: {resultado}")
 
 
--- multiplicar
+# multiplicar
 def multiplicar(x,y):
     a = x*y
     return print(f"La multiplicación de {x} y {y} es {a}")
