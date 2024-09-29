@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 def multiplicar(x,y):
     a = x*y
     return print(f"La multiplicación de {x} y {y} es {a}")
@@ -27,3 +28,26 @@ resultado = restar(num1, num2)
 
 print(f"La resta de {num1} menos {num2} es: {resultado}")
 >>>>>>> restar
+=======
+def sumar(a, b):
+    return a + b
+    
+def sumar(lista):
+    total = 0
+    for i in lista:
+        total += i
+
+    return total
+
+
+print("Ingresa la cantidad de numeros que quieres sumar")
+cantidad = int(input())
+lista=[]
+for i in range(cantidad):
+    print("ingresa el valor numero ", i+1)
+    num = int(input())  
+    lista.append(num)
+
+print(lista)
+print("La suma total es: ", sumar(lista))
+>>>>>>> sumar
