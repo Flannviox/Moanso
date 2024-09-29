@@ -45,4 +45,5 @@ num2 = float(input("Ingresa el segundo número: "))
 resultado = restar(num1, num2)
 
 
-print("Culminamos gentita")
+print("Culminamos gentita, gop gop")
+print("woop woop")
