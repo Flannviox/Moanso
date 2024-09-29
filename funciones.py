@@ -1,1 +1,7 @@
-print("Calculadora xd")
+
+
+def sumar(a, b):
+    return a + b
+
+
+
