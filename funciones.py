@@ -1,3 +1,6 @@
+def sumar(a, b):
+    return a + b
+    
 def sumar(lista):
     total = 0
     for i in lista:
